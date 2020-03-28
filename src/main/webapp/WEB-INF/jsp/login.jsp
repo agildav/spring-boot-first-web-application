@@ -4,6 +4,8 @@
 	</head>
 
 	<body>
-		Login message from JSP view
+		Login message from JSP view.
+		<br>
+		Your name is ${name}
 	</body>	
 </html>	
