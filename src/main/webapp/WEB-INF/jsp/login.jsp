@@ -6,6 +6,10 @@
 	<body>
 		Login message from JSP view.
 		<br>
-		Your name is ${name}
+		<form method="post">
+			Name: <input type="text" name="name"/>
+			Password: <input type="password" name="password"/>
+			<button type="submit">Submit Query</button>
+		</form>
 	</body>	
 </html>	
